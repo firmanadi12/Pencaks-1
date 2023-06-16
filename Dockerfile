@@ -20,4 +20,4 @@ COPY . /app
 RUN PYTHONPATH=/usr/bin/python pip install -r requirements.txt
 
 # Set the command to run your application
-CMD [ "python", "main.py" ]
+CMD [ "python", "pecak.py" ]
